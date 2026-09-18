@@ -1,0 +1,43 @@
+# Spinner verbs for Claude Code, one per line.
+# Synced into settings.json (spinnerVerbs.verbs) by hook-spinner-verbs.ps1 on SessionStart.
+# Blank lines ignored. Lines starting with # are comments.
+# Escapes: \r\n and \n become real line breaks; \\ is a literal backslash.
+# Each line is trimmed; \s inserts a literal space (use it for leading/trailing spaces).
+
+Ravaging
+Bakering
+Mais kesser tu voulu-tu que je fez?
+Mon chandail
+J'ai pas encore choisi mon beigne
+C'est jamais arrive que c'est pas arrive
+Fuck you Tony
+Only have 2 feet, only need 2 socks
+Lee can't have cheese
+Hi people, I'm back Clauding again
+Democracy basically means: Government by the people, of the people, for the people… but the people are retarded
+I'm at the table
+Whereas Canada is founded upon principles that recognize the supremacy of God and the rule of law
+(╯°□°)╯︵ ┻━┻
+Whoa! Unforgivable!
+What makes you happy… Does it make… others happy, too?
+If you do the right thing… Does it really make… everybody… happy?
+Your true face… What kind of… face is it? I wonder
+We shall greet the morning… Together
+You've met with terrible code, haven't you?
+Do you ever feel a strange sadness as dusk falls?
+Why you care about small things? World very simple place. \r\nWorld only have two things: \r\nThings you can eat and things you no can
+Why do people depend on each other? In the end you're on your own
+Big SHOES!
+An Karanir Thanagor
+Keep your feet on the ground
+My son, the day you were born, the very forests of Lordaeron whispered the name… Claude
+Stop right there, criminal scum!
+I used to be a developer like you. Then I took an arrow in the knee
+Ah shit, here we go again
+I Love You Honey Bunny
+C# motherfucker do you speak it?
+To infinity and beyond!
+It can't be bargained with, it can't be reasoned with. It doesn't feel pity! Or remorse or fear and it absolutely will not stop!… ever… until you are dead!
+Birds aren't real
+My girlfriend's a dick magnet — My girlfriend gotta have it
+Je me devore le Knorr
