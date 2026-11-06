@@ -123,7 +123,13 @@ if ($rebuilds -gt 0) {
 
 $model = $d.model.display_name
 $model = ($model -replace '\s*\(1M context\)$', '') # remove the (1M context) label
-$dir   = Split-Path -Leaf ($d.workspace.current_dir ?? $d.cwd)
+$cwd   = $d.workspace.current_dir ?? $d.cwd
+$dir   = Split-Path -Leaf $cwd
+
+# Blue repo name when on the default branch, default color otherwise.
+$branch = $null
+try { $branch = git -C $cwd --no-optional-locks branch --show-current 2>$null } catch { }
+if ($branch -in @('master', 'main')) { $dir = "$esc[36m$dir$rst" }
 
 Write-Output "$dim$model |$rst $dir $dim|$rst $($parts -join " $dim|$rst ")"
 exit 0
